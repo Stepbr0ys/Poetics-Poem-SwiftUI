@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368E67E6279D780D00CB8A81 /* PoemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67D6279D780D00CB8A81 /* PoemsApp.swift */; };
+		368E67E7279D780D00CB8A81 /* PoemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67D6279D780D00CB8A81 /* PoemsApp.swift */; };
+		368E67E8279D780D00CB8A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67D7279D780D00CB8A81 /* ContentView.swift */; };
+		368E67E9279D780D00CB8A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67D7279D780D00CB8A81 /* ContentView.swift */; };
+		368E67EA279D780D00CB8A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368E67D8279D780D00CB8A81 /* Assets.xcassets */; };
+		368E67EB279D780D00CB8A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368E67D8279D780D00CB8A81 /* Assets.xcassets */; };
+		368E67F5279D79AB00CB8A81 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67F4279D79AB00CB8A81 /* StartScreen.swift */; };
+		368E67F6279D79AB00CB8A81 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E67F4279D79AB00CB8A81 /* StartScreen.swift */; };
+		368E8B13279D85170060933B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E8B12279D85170060933B /* ExploreView.swift */; };
+		368E8B14279D85170060933B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E8B12279D85170060933B /* ExploreView.swift */; };
+		368E8B16279D87CC0060933B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E8B15279D87CC0060933B /* Data.swift */; };
+		368E8B17279D87CC0060933B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E8B15279D87CC0060933B /* Data.swift */; };
+		368E8B1A279DA6F20060933B /* Belligan.otf in Resources */ = {isa = PBXBuildFile; fileRef = 368E8B18279DA5FD0060933B /* Belligan.otf */; };
+		368E8B1C279DA76C0060933B /* Balyta.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 368E8B1B279DA76C0060933B /* Balyta.ttf */; };
+		368E8B1E279DA8040060933B /* HelloKatterine.otf in Resources */ = {isa = PBXBuildFile; fileRef = 368E8B1D279DA8040060933B /* HelloKatterine.otf */; };
+		368E8B20279DB4EF0060933B /* Promo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 368E8B1F279DB4EF0060933B /* Promo-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		368E67D6279D780D00CB8A81 /* PoemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemsApp.swift; sourceTree = "<group>"; };
+		368E67D7279D780D00CB8A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		368E67D8279D780D00CB8A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368E67DD279D780D00CB8A81 /* Poems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368E67E3279D780D00CB8A81 /* Poems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368E67E5279D780D00CB8A81 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		368E67F4279D79AB00CB8A81 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		368E8B12279D85170060933B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		368E8B15279D87CC0060933B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		368E8B18279DA5FD0060933B /* Belligan.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belligan.otf; sourceTree = "<group>"; };
+		368E8B19279DA6140060933B /* Poems--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Poems--iOS--Info.plist"; sourceTree = "<group>"; };
+		368E8B1B279DA76C0060933B /* Balyta.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balyta.ttf; sourceTree = "<group>"; };
+		368E8B1D279DA8040060933B /* HelloKatterine.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloKatterine.otf; sourceTree = "<group>"; };
+		368E8B1F279DB4EF0060933B /* Promo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Promo-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368E67DA279D780D00CB8A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368E67E0279D780D00CB8A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368E67D0279D780C00CB8A81 = {
+			isa = PBXGroup;
+			children = (
+				368E8B19279DA6140060933B /* Poems--iOS--Info.plist */,
+				368E67D5279D780D00CB8A81 /* Shared */,
+				368E67E4279D780D00CB8A81 /* macOS */,
+				368E67DE279D780D00CB8A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368E67D5279D780D00CB8A81 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				368E67D6279D780D00CB8A81 /* PoemsApp.swift */,
+				368E67D7279D780D00CB8A81 /* ContentView.swift */,
+				368E67D8279D780D00CB8A81 /* Assets.xcassets */,
+				368E67F4279D79AB00CB8A81 /* StartScreen.swift */,
+				368E8B12279D85170060933B /* ExploreView.swift */,
+				368E8B15279D87CC0060933B /* Data.swift */,
+				368E8B1D279DA8040060933B /* HelloKatterine.otf */,
+				368E8B1B279DA76C0060933B /* Balyta.ttf */,
+				368E8B18279DA5FD0060933B /* Belligan.otf */,
+				368E8B1F279DB4EF0060933B /* Promo-Regular.ttf */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		368E67DE279D780D00CB8A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368E67DD279D780D00CB8A81 /* Poems.app */,
+				368E67E3279D780D00CB8A81 /* Poems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368E67E4279D780D00CB8A81 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				368E67E5279D780D00CB8A81 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368E67DC279D780D00CB8A81 /* Poems (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368E67EE279D780D00CB8A81 /* Build configuration list for PBXNativeTarget "Poems (iOS)" */;
+			buildPhases = (
+				368E67D9279D780D00CB8A81 /* Sources */,
+				368E67DA279D780D00CB8A81 /* Frameworks */,
+				368E67DB279D780D00CB8A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poems (iOS)";
+			productName = "Poems (iOS)";
+			productReference = 368E67DD279D780D00CB8A81 /* Poems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368E67E2279D780D00CB8A81 /* Poems (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368E67F1279D780D00CB8A81 /* Build configuration list for PBXNativeTarget "Poems (macOS)" */;
+			buildPhases = (
+				368E67DF279D780D00CB8A81 /* Sources */,
+				368E67E0279D780D00CB8A81 /* Frameworks */,
+				368E67E1279D780D00CB8A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poems (macOS)";
+			productName = "Poems (macOS)";
+			productReference = 368E67E3279D780D00CB8A81 /* Poems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368E67D1279D780C00CB8A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					368E67DC279D780D00CB8A81 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					368E67E2279D780D00CB8A81 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 368E67D4279D780C00CB8A81 /* Build configuration list for PBXProject "Poems" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368E67D0279D780C00CB8A81;
+			productRefGroup = 368E67DE279D780D00CB8A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368E67DC279D780D00CB8A81 /* Poems (iOS) */,
+				368E67E2279D780D00CB8A81 /* Poems (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368E67DB279D780D00CB8A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E8B1E279DA8040060933B /* HelloKatterine.otf in Resources */,
+				368E67EA279D780D00CB8A81 /* Assets.xcassets in Resources */,
+				368E8B1A279DA6F20060933B /* Belligan.otf in Resources */,
+				368E8B20279DB4EF0060933B /* Promo-Regular.ttf in Resources */,
+				368E8B1C279DA76C0060933B /* Balyta.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368E67E1279D780D00CB8A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E67EB279D780D00CB8A81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368E67D9279D780D00CB8A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E67E8279D780D00CB8A81 /* ContentView.swift in Sources */,
+				368E8B16279D87CC0060933B /* Data.swift in Sources */,
+				368E67E6279D780D00CB8A81 /* PoemsApp.swift in Sources */,
+				368E8B13279D85170060933B /* ExploreView.swift in Sources */,
+				368E67F5279D79AB00CB8A81 /* StartScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368E67DF279D780D00CB8A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368E67E9279D780D00CB8A81 /* ContentView.swift in Sources */,
+				368E8B17279D87CC0060933B /* Data.swift in Sources */,
+				368E67E7279D780D00CB8A81 /* PoemsApp.swift in Sources */,
+				368E8B14279D85170060933B /* ExploreView.swift in Sources */,
+				368E67F6279D79AB00CB8A81 /* StartScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		368E67EC279D780D00CB8A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368E67ED279D780D00CB8A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		368E67EF279D780D00CB8A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poems--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Broys.Poems;
+				PRODUCT_NAME = Poems;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368E67F0279D780D00CB8A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poems--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Broys.Poems;
+				PRODUCT_NAME = Poems;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368E67F2279D780D00CB8A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Broys.Poems;
+				PRODUCT_NAME = Poems;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		368E67F3279D780D00CB8A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Broys.Poems;
+				PRODUCT_NAME = Poems;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368E67D4279D780C00CB8A81 /* Build configuration list for PBXProject "Poems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368E67EC279D780D00CB8A81 /* Debug */,
+				368E67ED279D780D00CB8A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368E67EE279D780D00CB8A81 /* Build configuration list for PBXNativeTarget "Poems (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368E67EF279D780D00CB8A81 /* Debug */,
+				368E67F0279D780D00CB8A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368E67F1279D780D00CB8A81 /* Build configuration list for PBXNativeTarget "Poems (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368E67F2279D780D00CB8A81 /* Debug */,
+				368E67F3279D780D00CB8A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368E67D1279D780C00CB8A81 /* Project object */;
+}
